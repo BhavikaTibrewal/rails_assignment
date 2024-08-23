@@ -33,7 +33,11 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+config/credentials.yml.enc
 
 # Project exclude paths
 /log/
 /tmp/
+
+.idea/*
+test/fixtures/files/*
